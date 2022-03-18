@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.navbar li a {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.alert {
+    background: indigo;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.alert-header {
+    background: khaki;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
